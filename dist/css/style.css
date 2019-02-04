@@ -92,10 +92,6 @@ body {
     transition: 0.2s;
 }
 
-.icons .row .column a:hover {
-    font-size: 1.25em;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -110,6 +106,14 @@ body {
     margin-left: 1%; 
     margin-right: 1%; 
 }
+
+@media(min-width: 768px) {
+    .icons .row .column a:hover {
+        font-size: 1.25em;
+    }
+}
+
+
 
 /* Modal */
 .modal-body img {
