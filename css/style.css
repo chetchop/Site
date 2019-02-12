@@ -81,13 +81,13 @@ body {
     margin-left: 20%;
 }
 
+/* Icons CSS*/
 .icons {
     margin-top: 1%;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 
-/* Icons CSS*/
 .icons .row .column i {
     color:black;
     border: 1px solid #000000;
@@ -124,9 +124,6 @@ body {
     }
     .content p {
         font-size: 200%;
-    }
-    .icons {
-        font-size: 250%;
     }
     .column {
         margin-left: 1%; 
