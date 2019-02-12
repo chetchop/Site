@@ -71,7 +71,7 @@ body {
 
 .content h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 400%;
+    font-size: 350%;
 }
 
 .content p {
@@ -83,7 +83,7 @@ body {
 
 .icons {
     margin-top: 1%;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 
@@ -107,17 +107,30 @@ body {
 .column {
     display: flex;
     flex-direction: column;
-    margin-left: 1%; 
-    margin-right: 1%; 
+    margin-left: 2%; 
+    margin-right: 2%; 
 }
 
 
 /* Media Queries*/
 
-/* Hover effects for users with something bigger than a tablet*/
+/* Hover effects, font-sizes for users with something bigger than a tablet*/
 @media(min-width: 768px) {
     .icons .row .column a:hover {
         font-size: 1.25em;
+    }
+    .content h1 {
+        font-size: 400%;
+    }
+    .content p {
+        font-size: 200%;
+    }
+    .icons {
+        font-size: 250%;
+    }
+    .column {
+        margin-left: 1%; 
+        margin-right: 1%; 
     }
 }
 
